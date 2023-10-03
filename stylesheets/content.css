@@ -1,0 +1,43 @@
+
+.container {
+    display: flex;
+    background-color: coral;
+    justify-content: flex-start;
+}
+
+
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: darkmagenta;
+    color: greenyellow;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+}
+
+.secondblock{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.thirdblock{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(236, 95, 217);
+}
+
+.fourthblock{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.zagolovok{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: azure;
+}
